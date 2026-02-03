@@ -1,2 +1,5 @@
 # Expense_traker
-IDK
+
+# Team members
+Sean Lin
+Hans Chan
