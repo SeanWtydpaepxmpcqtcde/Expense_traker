@@ -8,8 +8,11 @@ Hans Chan
 ## How to run
 
 Python required
+
 Clone or download this project file
+
 Open a terminal or command prompt in the project folder
+
 Run the program by using python : expense_tracker.py
 
 ## Features 
