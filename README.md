@@ -40,5 +40,4 @@ Hans Chan
 1. Calculate total expenses
 2. Filter by category
 3. Delete expenses
-4. Write README file(not including whole reflection)
-5. Part of reflection
+4. Part of reflection
