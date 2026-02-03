@@ -5,7 +5,7 @@ Sean Lin
 
 Hans Chan
 
-##How to run
+## How to run
 
 Python required
 Clone or download this project file
