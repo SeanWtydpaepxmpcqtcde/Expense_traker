@@ -13,6 +13,7 @@ Open a terminal or command prompt in the project folder
 Run the program by using python : expense_tracker.py
 
 ## Features 
+
   The expense tracker will allow users to:
 
 1. Add new expense
@@ -21,3 +22,16 @@ Run the program by using python : expense_tracker.py
 4. Calculate the total expenses
 5. Delete specific expenses
 
+## Technologies Used
+1. Python
+2. Github
+   
+## Team roles
+
+### Member 1 (Sean Lin)
+
+
+
+
+
+### Member 2 (Hans Chan)
