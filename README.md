@@ -1,5 +1,5 @@
 # Expense_traker
 
-# Team members
+## Team members
 Sean Lin
 Hans Chan
