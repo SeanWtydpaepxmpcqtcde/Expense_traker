@@ -41,3 +41,7 @@ Hans Chan
 2. Filter by category
 3. Delete expenses
 4. Part of reflection
+
+## Llicenses
+
+1. MIT
