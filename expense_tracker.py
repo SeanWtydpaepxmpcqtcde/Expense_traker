@@ -33,6 +33,31 @@ def view_expenses(expenses):
     for i, e in enumerate(expenses, 1):
         print(f"{i}. {e['category']} | ${e['amount']} | {e['date']}")
 
+def calculate_total(expenses):
+    if not expenses:
+        print("No expenses to calculate.")
+        return
+
+    total = 0
+    for e in expenses:
+        total += e["amount"]
+
+    print(f"Total expenses: ${total}")
+def delete_expense(expenses):
+    if not expenses:
+        print("No expenses to delete.")
+        return
+
+    category = input("Enter category to delete: ")
+    date = input("Enter date (YYYY-MM-DD): ")
+
+    for e in expenses:
+        if e["category"] == category and e["date"] == date:
+            expenses.remove(e)
+            print("Expense deleted.")
+            return
+
+    print("Expense not found.")
 
 while True :
     menu()
