@@ -12,7 +12,8 @@ expenses = []
 
 
 def add_expense(expenses):
-    category = input("Enter category: ")
+   
+    category = input("Enter category: ").capitalize()
     amount = float(input("Enter amount: "))
     date = input("Enter date (YYYY-MM-DD): ")
 
@@ -29,7 +30,7 @@ def view_expenses(expenses):
     if not expenses:
         print("No expenses recorded.")
         return
-
+    print("Expenses:")
     for i, e in enumerate(expenses, 1):
         print(f"{i}. {e['category']} | ${e['amount']} | {e['date']}")
 
@@ -43,19 +44,17 @@ def calculate_total(expenses):
         total += e["amount"]
 
     print(f"Total expenses: ${total}")
+
 def delete_expense(expenses):
     if not expenses:
         print("No expenses to delete.")
         return
-
-    category = input("Enter category to delete: ")
-    date = input("Enter date (YYYY-MM-DD): ")
-
-    for e in expenses:
-        if e["category"] == category and e["date"] == date:
-            expenses.remove(e)
-            print("Expense deleted.")
-            return
+    view_expenses(expenses)
+    index = int(input("Enter the expense number to delete: ")) - 1
+    if 0 <= index < len(expenses):
+        expenses.pop(index)
+        print("Expense deleted.")
+        return
 
     print("Expense not found.")
 
@@ -76,7 +75,6 @@ while True :
         break
     else:
         print("Invalid choice. Please try again.")
-
 
 
 
