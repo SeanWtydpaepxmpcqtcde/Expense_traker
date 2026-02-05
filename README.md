@@ -1,4 +1,4 @@
-# Expense_traker
+# Expense_tracker
 This is an Expense tracker project
 ## Team members
 Sean Lin
