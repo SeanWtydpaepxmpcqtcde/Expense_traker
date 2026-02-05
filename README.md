@@ -43,6 +43,9 @@ Hans Chan
 4. Part of reflection
 
 ## Reflection
+
+Sean Lin : In this project, I met many hurdles during coding. First, creating
+
 Hans:In this project, my team has learned how does Github work and creating simple tracker. I focused on calculating totals and deleating expenses.The main challenge was understanding where functions should go and fixing small errors like indentation and missing functions.
 
 
