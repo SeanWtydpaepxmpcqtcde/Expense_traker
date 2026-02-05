@@ -44,7 +44,7 @@ Hans Chan
 
 ## Reflection
 
-Sean Lin : In this project, I met many hurdles during coding. First, creating
+Sean Lin : In this project, I met many hurdles during coding. First, creating the expense_tracker.py into main takes me a lot of time, I resolve the problem after a researched lots of website. Furthermore, maybe I still not very good at using Github, sometimes I stuck, so I keep researching online or Teams term 2 slide. Overall, I reeally enjoy coding and collaborating with someone.
 
 Hans:In this project, my team has learned how does Github work and creating simple tracker. I focused on calculating totals and deleating expenses.The main challenge was understanding where functions should go and fixing small errors like indentation and missing functions.
 
