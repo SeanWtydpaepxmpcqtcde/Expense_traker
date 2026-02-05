@@ -1,5 +1,4 @@
 
-
 def menu() :
     print("Expense Tracker")
     print("1. Add Expense")
@@ -10,11 +9,17 @@ def menu() :
 
 expenses = [] 
 
-
 def add_expense(expenses):
-   
-    category = input("Enter category: ").capitalize()
-    amount = float(input("Enter amount: "))
+    category = input("Enter category:If you want to quit ,press q.").capitalize()
+    if  category.lower() == "q":
+        return
+    while True:
+      try:
+        amount = float(input("Enter amount: "))
+        break
+      except:
+        print("ERROR, please try again")
+
     date = input("Enter date (YYYY-MM-DD): ")
 
     expense = {
@@ -50,7 +55,10 @@ def delete_expense(expenses):
         print("No expenses to delete.")
         return
     view_expenses(expenses)
-    index = int(input("Enter the expense number to delete: ")) - 1
+    index = (input("Enter the expense number to delete, If you want to quit ,press q ")) - 1
+    try: 
+      index.lower() == "q":
+    return
     if 0 <= index < len(expenses):
         expenses.pop(index)
         print("Expense deleted.")
@@ -75,7 +83,6 @@ while True :
         break
     else:
         print("Invalid choice. Please try again.")
-
 
 
 
